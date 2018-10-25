@@ -2,8 +2,11 @@ package com.demo.java8;
 
 import java.util.stream.IntStream;
 
-/*
+/**
  * This class demonstrates the difference between imperative and declarative approach using sum of 1 to 100 nos example.
+ * 
+ * @author hareev
+ *
  */
 public class ImperativeVsDeclarative {
 	
