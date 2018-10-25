@@ -1,4 +1,4 @@
-package com.demo.java8;
+package com.demo.java8.lambda;
 
 /**
  * This class demonstrates the Runnable implementation using Lambda

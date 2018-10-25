@@ -1,4 +1,4 @@
-package com.demo.java8;
+package com.demo.java8.lambda;
 
 import java.util.ArrayList;
 import java.util.Arrays;
