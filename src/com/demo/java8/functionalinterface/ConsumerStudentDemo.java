@@ -12,7 +12,7 @@ import com.demo.java8.data.StudentDataBase;
  * @author hareev
  *
  */
-public class ConsumerRealWorldDemo {
+public class ConsumerStudentDemo {
 	
 	static Consumer<Student> studentConsumer = (s) -> System.out.println(s);
 	static Consumer<Student> studentConsumer1 = (s) -> System.out.print(s.getName());
