@@ -31,7 +31,9 @@ public class StreamsDemo {
 				filter(studentPredicate).
 				peek((student)->{System.out.println("after 1st filter"+student);}).
 				filter(studentGpaPredicate).
-				peek((student)->{System.out.println("after 2nd filter"+student);}).
+				peek((student)->{System.out.println("after 2nd filter"+student);
+				
+				}).
 				collect(Collectors.toMap(Student::getName, Student::getActivities));
 		
 		 List<String> studentActivities = StudentDataBase.getAllStudents().
