@@ -33,7 +33,7 @@ public class ParallelStreamDemo {
 	}
 	
 	public static void main(String[] args) {
-		
+		System.out.println(Runtime.getRuntime().availableProcessors());
 		System.out.println("Sequential Stream Timing"+checkPerformance(ParallelStreamDemo::performSequentialStream, 20));
 		System.out.println("Parallel Stream Timing"+checkPerformance(ParallelStreamDemo::performParallelStream, 20));
 		
